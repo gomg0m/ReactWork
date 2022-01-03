@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\김진영\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\김진영\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\Program Files\Microsoft MPI\Bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Common Files\Autodesk Shared;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\PCL 1.11.1\bin;C:\Program Files\PCL 1.11.1\3rdParty\VTK\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\dotnet;C:\Users\김진영\AppData\Local\Microsoft\WindowsApps;C:\Users\김진영\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\김진영\AppData\Roaming\npm;C:\Users\김진영\.dotnet\tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\webdev_work\react\my-app\package.json: Unexpected token 
+   in JSON at position 210
+      at JSON.parse (<anonymous>)
+      at C:\Users\김진영\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\김진영\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\김진영\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+      "name" : "ReactTest",
+      "version" : "1.0.0",
+      "scripts" : {
+          "client": "cd client && yarn start",
+          "server" : "nodemon server.js",
+          "dev" : "concurrently --kill-others-on-fail \"
+      },
+      
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
